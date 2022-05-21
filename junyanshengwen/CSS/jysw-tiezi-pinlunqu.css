@@ -1,0 +1,93 @@
+@media screen and (min-width:1px) and (max-width:1160px){
+	.tiezi_pinglunqu{
+		width: calc( 100% - 20px );
+	}
+}
+
+@media screen and (min-width:1161px){
+	.tiezi_pinglunqu{
+		width: calc(100% - 20px);
+	}
+}
+
+
+
+.tiezi_pinglunqu_mingcheng,.tiezi-tuijian-biaoti_mingcheng{
+	height: 45px;
+	line-height: 45px;
+	margin: 0px 15px;
+}
+
+.tiezi_pinglunqu_shuipingxian{
+	margin: 0px 0px 15px;
+}
+.tiezi-tuijian_shuipingxian,.tiezi-neirong_shuipingxian{
+	margin: 0px 15px 5px ;
+}
+
+.tiezi_pinglunqu{
+	background-color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px 2px #C6C6C6;
+	margin: 0px auto;
+	padding: 0px 0 30px;
+}
+.tiezi_pinglunqu_kuang{
+	margin: 0px 15px;
+}
+.tiezi_pinglunqu_toubu{
+	width: 65px;
+	height: 100px;
+}
+.tiezi_pinglunqu_toubu_touxiang{
+	width: 75%;
+	height: 48.75%;
+	background-image: url(../img/morentouxiang.png);
+	background-size: cover;
+	border-radius: 50%;
+	border: 3px solid #C6C6C6;
+	margin: 7.5px 7.5px;
+}
+.tiezi_pinglunqu_weibu{
+	width: calc(100% - 70px);
+	margin-bottom: 10px;
+	/*border: 1px solid #C6C6C6;*/
+}
+.pinglunqu_pinglun{
+	overflow-y:auto;
+	font-size: 1rem;
+	padding: 0.375rem;
+	border-radius: 0.25rem;
+	background-clip: padding-box;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 75px;
+	outline:none;
+	color: #495057;
+	background-color: #fff;
+}
+input.pinglunqu_annv_tijiao,.pinglunqu_annv_quxiao{
+	transition: 0.3s;
+	border-radius: 5px;
+	height: 25px;
+	width: 50px;
+	line-height: 25x;
+	margin: 0 5px 0 0;
+}
+input.pinglunqu_annv_tijiao{
+	background-color: #009DC1;
+	color: #ffffff;
+	border: 1px solid #009DC1;
+}
+input.pinglunqu_annv_quxiao{
+	background-color: #ffffff;
+	border: 1px solid #495057;
+}
+input.pinglunqu_annv_tijiao:hover{
+	background-color: #177CB0;
+}
+input.pinglunqu_annv_quxiao:hover{
+	background-color: #DADDE2;
+}
+
+

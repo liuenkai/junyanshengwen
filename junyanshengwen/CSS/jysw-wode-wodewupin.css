@@ -1,0 +1,33 @@
+.wode-wupin{
+	padding: 30px 15px;
+	margin: 0px 0px;
+	height: 100%;
+	width: 100%;
+}
+.wode-wodewupin{
+	background-color: #ffffff;
+	height: calc("width");
+	width: 100%;
+	min-height: 210px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px 2px #C2CCD0;
+	margin: 20px 0;
+}
+.wode-wodewupin-yemianxuanzhe-xuanzhe{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #065279;
+	color: #065279;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+}
+#wode-wodewupin-yemianxuanzhe-xuanzhe-left{
+	border-radius: 5px 0 0 5px;
+	line-height: 16px;
+}
+#wode-wodewupin-yemianxuanzhe-xuanzhe-right{
+	border-radius: 0 5px 5px 0;
+	line-height: 16px;
+}
